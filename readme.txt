@@ -1,55 +1,31 @@
-=== Video Shows ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.1
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
-
-Example block scaffolded with Create Block tool.
+=== Video Listing Block ===
+Contributors: manthansparmar7
+Tags: gutenberg, video listing, custom taxonomy, custom post type, block
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.0
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
+A dynamic Gutenberg block that displays a listing of videos (custom post type) based on custom taxonomy terms like "shows."
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+== Purpose ==
+The Video Listing Block plugin provides an easy-to-use Gutenberg block to display a curated list of videos (custom post type) organized by a custom taxonomy like "shows." It enables content creators to dynamically showcase videos related to specific shows in a customizable layout.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+== Features ==
+* Display videos (custom post type) based on the selected "shows" (custom taxonomy).
+* Dynamically update video listings as per the selected taxonomy terms.
 
 == Installation ==
+1. Download the plugin and upload the ZIP file via the WordPress dashboard or manually upload it to the /wp-content/plugins/ directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. The block will be available in the Gutenberg editor under the Blocks section.
 
-This section describes how to install the plugin and get it working.
+== Usage ==
+* Add the 'Video Listing Block' in any Gutenberg page or post.
+* Select the "show" or taxonomy term from the block settings to filter the videos.
 
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/video-shows` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+== Coding Standards ==
+The plugin adheres to the **PHP_CodeSniffer (PHPCS)** and **PHP Code Beautifier and Fixer (PHPCBF)** coding standards for **WordPress VIP**, ensuring clean, high-quality, and maintainable code.
