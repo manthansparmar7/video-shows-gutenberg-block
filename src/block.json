@@ -1,0 +1,36 @@
+{
+	"title": "Video Shows",
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/video-shows",
+	"version": "0.1.0",
+	"category": "widgets",
+	"icon": "playlist-video",
+	"description": "Example block created by Manthan Parmar.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "video-shows",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+    "attributes": {
+        "postCount": {
+            "type": "number",
+            "default": "3"
+        },
+		"selectedShow": {
+            "type": "string",
+            "default": ""
+        },
+		"selectedVideos": {
+            "type": "array",
+            "default": []
+        },
+		"selectedOption":{
+            "type": "string",
+            "default": ""
+        }
+    }
+}

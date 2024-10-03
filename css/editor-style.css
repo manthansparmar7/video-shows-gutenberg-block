@@ -1,0 +1,22 @@
+.video_shows_main {
+    text-align: center;
+}
+.video_shows_main img {
+    height: 100px;
+    width: 150px;
+}
+
+.video_shows_main
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px; 
+}
+
+.video_show
+{
+    flex: 1 1 calc(33.333% - 10px); 
+    padding: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+}
